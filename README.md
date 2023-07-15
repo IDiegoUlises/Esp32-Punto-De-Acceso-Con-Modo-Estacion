@@ -42,7 +42,7 @@ void setup()
     delay(100);
   }
 
-  //Imprime la direccion IP de la red qu se conecta
+  //Imprime la direccion IP de la red que se conecta
   Serial.print("\n[+] Connected to WiFi network with local IP : ");
   Serial.println(WiFi.localIP());
 }
